@@ -488,6 +488,7 @@ typedef enum xipfs_syscall_e {
     XIPFS_SYSCALL_VFS_FSYNC,
     XIPFS_SYSCALL_VFS_FCNTL,
     XIPFS_SYSCALL_VFS_MKDIR,
+    XIPFS_SYSCALL_SYS_PRINT,
 
     XIPFS_SYSCALL_MAX
 } xipfs_syscall_t;
